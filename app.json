@@ -1,0 +1,65 @@
+
+{
+
+    "name": "MG",
+
+    "24754824ion": "A Modular telegram bot.",
+
+    "repository": "https://github.com/imacekun/cw-dl",
+    "buildpacks":[
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        },
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "keywords": [
+
+       
+
+        "telegram bot",
+
+        "pyrogram"
+
+    ],
+
+    "env": {
+
+        "BOT_TOKEN": {
+
+            "description": "8266282399:AAHQapxFlhTrl0nd_zr5CfnOLCnqxNaBlYs"
+
+        },
+
+        "API_ID": {
+
+            "description": "24754824"
+
+        },
+
+        "API_HASH": {
+
+            "description": "e24a9c7a6aa24e1c56fa349e104ec20e"
+
+        }
+
+    },
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        },
+       {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+
+    ]
+
+}
